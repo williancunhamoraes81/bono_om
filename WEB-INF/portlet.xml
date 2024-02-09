@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" id="com.ibm.marinha_cadastroom.Marinha_cadastroOMPortlet.35ae1db115">
+	<portlet>
+		<portlet-name>marinha_cadastroOM</portlet-name>
+		<display-name>marinha_cadastroOM</display-name>
+		<display-name xml:lang="pt-BR">marinha_cadastroOM</display-name>
+		<portlet-class>com.ibm.marinha_cadastroom.Marinha_cadastroOMPortlet</portlet-class>
+		<init-param>
+			<name>wps.markup</name>
+			<value>html</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<supported-locale>pt_BR</supported-locale>
+		<resource-bundle>com.ibm.marinha_cadastroom.nl.Marinha_cadastroOMPortletResource</resource-bundle>
+		<portlet-info>
+			<title>marinha_cadastroOM</title>
+			<short-title>marinha_cadastroOM</short-title>
+			<keywords>marinha_cadastroOM</keywords>
+		</portlet-info>
+	</portlet>
+	<default-namespace>http://marinha_cadastroOM/</default-namespace>
+	<container-runtime-option> 
+      <name>javax.portlet.actionScopedRequestAttributes</name> 
+      <value>true</value> 
+      <value>numberOfCachedScopes</value> 
+      <value>10</value> 
+  	</container-runtime-option>
+</portlet-app>

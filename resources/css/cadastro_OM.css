@@ -1,0 +1,452 @@
+@charset "utf-8";
+/* CSS Document */
+  body {
+      font-size: 12px; 
+      color: #000000; 
+      letter-spacing:0.07em;
+ 
+      }
+      body a {
+        text-decoration:none; 
+        color:#000000; 
+        outline:none;
+      }
+        body a:hover {
+          text-decoration:none;
+          }
+
+.botaocriar{
+font: 1.375em Candara;
+letter-spacing:0.03125em;
+float:right;
+margin-top:30px;
+margin-right:35px;
+padding: 4px 22px;
+background: rgb(210,218,224); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(210,218,224,1) 22%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(22%,rgba(210,218,224,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(210,218,224,1) 22%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(210,218,224,1) 22%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(210,218,224,1) 22%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(210,218,224,1) 22%,rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dae0', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+-webkit-border-top-left-radius: 3px;
+-moz-border-radius: 2px;
+-moz-border-radius-topleft: 3px;
+border-radius: 2px;
+border-top-left-radius: 3px;
+box-shadow: 3px 4px 5px #146487;
+-webkit-box-shadow: 4px 3px 5px #146487;
+-moz-box-shadow: 3px 4px 5px #146487;
+} 
+
+.botaocriar a:hover{
+	color:#228fbe;
+} 
+
+.paginacao{
+	padding: 5px;
+	text-align: center;
+}
+
+/* -------------------
+BONO SEÇÂO PRICIPAL
+listagem de conteúdo
+------------------- */
+
+.topoedicao{
+display: block;
+background-color:#228fbe;
+width: 96%;
+height:90px;
+-webkit-border-top-left-radius: 8px;
+-moz-border-radius: 7px;
+-moz-border-radius-topleft: 8px;
+border-radius: 7px;
+border-top-left-radius: 8px;
+margin:0 auto;
+
+
+}
+
+
+.topoedicao h1{
+font: 1.5625em Verdana, Geneva, sans-serif;
+color: white;
+padding-top:19px;
+padding-left:35px;
+padding-right:5px;
+letter-spacing:normal;
+float:left;
+
+
+} 
+
+
+.topoedicao h3{
+font: 1em Verdana, Geneva, sans-serif;
+color: white;
+float:left;
+padding-top:24px;
+
+
+} 
+
+
+
+.status-atual
+{
+float:right
+
+
+}
+
+
+.status-atual h4{
+color: #1b8aba;
+font-weight:bold;
+display:inline;
+
+
+}
+
+
+
+ 
+  /* -------------------------
+SEM RESULTADOS
+--------------------------- */
+.semResultados{
+width:96%;
+margin-top:5px;
+padding:30px 20px;
+background-color:#dcebf2;
+    font: 1.375em Candara;
+    letter-spacing:normal;
+color:#0f1112;
+
+
+}
+
+
+ 
+  /* -------------------------
+CADASTRO OM
+--------------------------- */
+
+.blocoCadastro{
+width:99%;
+background-image: url(/wps/PA_Cadastro_OM/documents/images/bg_bloco_cadastro.gif);
+}
+
+.blocoCadastro ul{
+  padding:0;
+  margin:0;
+}
+
+
+.listagemOM {
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+font-family: Verdana,Arial,Helvetica,sans-serif;
+font-size: 11px;
+background-color: #D7D7D7;
+letter-spacing:0;
+list-style:none;
+height:35px;
+margin-left:10px;
+padding-left:10px;
+width: 909px;
+}
+
+
+
+.campoConsulta{
+width:96%;
+margin:10px auto 0 auto;
+font:1em Verdana, Geneva, sans-serif;
+letter-spacing:normal;
+color:#0f1112;
+float:left;
+}
+
+.titCadastro{
+   width:908px;
+   font-family: Verdana,Arial,Helvetica,sans-serif;
+   font-size: 12px;
+   color:#000;
+   font-weight:bold;
+   padding: 0.15em 0.5em 0.15em 0.5em;
+   height:20px;
+   margin:30px 5px 0 10px;
+   border-bottom: solid 1px #ccc;
+}
+
+.titCadastro ul{
+list-style:none;
+   }
+
+.titCadastro li{
+display: inline;
+
+   }
+
+
+.consultaOM{
+width:96%;
+border-bottom:1px solid #c2cdd2;
+margin:30px auto 0 auto;
+padding-bottom:5px;
+font: 1.625em Candara;
+letter-spacing:normal;
+color:#0f1112;
+}
+
+
+.pesquisaOM{
+width:96%;
+margin:10px auto 0;
+padding:20px 0 20px 15px;
+font: 1.125em Verdana;
+letter-spacing:normal;
+color:#0f1112;
+background-color:#e0eff5;
+}
+
+.pesquisaOM input{
+width:100px;
+}
+
+.pesquisaOM select{
+width:100px;
+font-size:12px;
+}
+
+
+
+
+/* Navegação / Tit / Corpo */
+
+.navCadastro {
+	width: 96%;
+	height: 30px;
+	color: #2087B3;
+	padding-top: 25px;
+	margin-left: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-align: center;
+   }  
+
+
+.navCadastro a{
+color:#228fbe;
+text-decoration:none;
+   }  
+
+
+.navCadastro a:hover{
+color:#7ab1c8;
+text-decoration:underline;
+
+   } 
+
+.navCadastro a:visited{
+color:#7ab1c8;
+
+   } 
+
+
+
+
+
+/* Campos Codigo / Tit / Corpo */
+
+.titCodigo {
+width:75px;
+margin-left:10px;
+float:left;
+color:#000000;
+   }
+
+.tabCodigo {
+width:75px;
+height:26px;
+float:left;
+color:#000000;
+padding-top:5px;
+margin-left:8px;
+   }
+
+
+ /* Campos Ind Naval / Tit / Corpo */  
+ 
+.titIndNaval {
+width:100px;
+margin-left:10px;
+float:left;
+color:#000000;
+   }
+
+.tabIndNaval {
+width:100px;
+height:26px;
+float:left;
+color:#000000;
+padding-top:5px;
+margin-left:10px;
+   }
+
+   
+ /* Campos Sigla / Tit / Corpo */  
+ 
+.titSigla {
+width:140px;
+margin-left:10px;
+float:left;
+color:#000000;
+   }
+
+.tabSigla {
+width:140px;
+height:26px;
+float:left;
+color:#000000;
+padding-top:5px;
+margin-left:8px;
+   }
+   
+
+/* Campos Posto Titular / Tit / Corpo */  
+ 
+.titPosto {
+width:115px;
+margin-left:10px;
+float:left;
+color:#000000;
+   }
+
+.tabPosto {
+width:115px;
+height:26px;
+float:left;
+color:#000000;
+padding-top:5px;
+margin-left:10px;
+   }
+   
+.tabPosto input, select{
+width:60px;
+font-size:11px;
+   }
+
+/* Campos Sequencia / Tit / Corpo */  
+ 
+.titSequencia {
+width:90px;
+margin-left:10px;
+float:left;
+color:#000000;
+   }
+
+.titDesc {
+width:240px;
+margin-left:10px;
+float:left;
+color:#000000;
+   }
+
+.tabSequencia {
+width:90px;
+height:26px;
+float:left;
+color:#000000;
+padding-top:5px;
+margin-left:10px;
+   }
+   
+.tabSequencia input, select{
+width:60px;
+font-size:11px;
+margin-right:65px;
+   }
+
+ .tabDesc {
+width:240px;
+height:26px;
+float:left;
+color:#000000;
+padding-top:5px;
+margin-left:10px;
+   }
+   
+.tabDesc input, select{
+width:200px;
+font-size:11px;
+margin-right:65px;
+   }
+
+/* Campos Salvar / Tit / Corpo */  
+ 
+.titSave {
+width:60px;
+margin-left:10px;
+float:left;
+color:#000000;
+text-align:center;
+   }
+
+.tabSave {
+width:60px;
+height:26px;
+float:left;
+color:#000000;
+padding-top:5px;
+margin-left:10px;
+text-align:center;
+   }  
+ 
+
+/* Campos Editar / Tit / Corpo */  
+ 
+.titEdit {
+width:60px;
+margin-left:10px;
+float:left;
+color:#000000;
+text-align:center;
+   }
+
+.tabEdit {
+width:60px;
+height:26px;
+float:left;
+color:#000000;
+padding-top:5px;
+margin-left:10px;
+text-align:center;
+   }
+
+  
+/* Campos Excluir / Tit / Corpo */  
+ 
+.titExcluir {
+width:60px;
+margin-left:10px;
+float:left;
+color:#000000;
+text-align:center;
+   }
+
+.tabExcluir {
+width:60px;
+height:26px;
+float:left;
+color:#000000;
+padding-top:5px;
+margin-left:10px;
+text-align:center;
+   }  
+   

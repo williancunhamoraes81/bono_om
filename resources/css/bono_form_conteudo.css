@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, img, ol, li, ul, dd, dt, dl {
+  margin:0; 
+  padding:0; 
+  list-style:none; 
+  border:none;
+  } 
+  html, body {
+    height:100%;
+    }
+    body {
+      font-size: 12px; 
+      color: #000000; 
+      letter-spacing:0.07em;
+      line-height: 75%;
+      }
+      body a {
+        text-decoration:none; 
+        color:#000000; 
+        outline:none;
+      }
+        body a:hover {
+          text-decoration:none;
+          }
+		body a:focus {
+			
+			text-shadow: 0 1px 2px #aaa;
+		}
+
+
+
+/*HTML 5 specific*/
+header,section,article,aside,footer{
+	display: block;
+
+}
+
+#ajuda{
+	display: none; 
+	border-style: solid; 
+	border-width: 1px; 
+	line-height: 15px;
+	text-align: justify;
+	padding:  10px; 
+	background-color: #FFFFC5 ; 
+	position: absolute; 
+	top: 0px; 
+	left: 0px;"
+}
+
+.botoes{
+	padding-bottom: 15px;
+}
+
+.formtitle {
+    font-family:Candara;
+	font-size:1.875em;
+	height:25px;
+	padding:0 0 0 40px;
+	color:#333;
+	letter-spacing:normal;
+	background-image:url('/wps/PA_marinha_CadastroOM/resources/img/icone_form.gif');
+	background-position:left;
+	background-repeat:no-repeat;
+   }
+
+.ui-datepicker-trigger {
+	margin-left:2px;
+}
+
+.campoForm{
+	display:inline;
+	font-family:Verdana;
+	letter-spacing:normal;
+	font-size:1.125em;
+	height:17px;
+	margin:10px 0;
+	border:1px solid #c2c3c5;
+}
+
+h2 {
+	height:92px;
+	font: 23pt Candara;
+	color: #0f1112;
+	float:left;
+}
+
+
+/* -------------------
+FORM CONTEÚDO
+------------------- */
+
+
+#formtodo {
+	width:95%;
+	padding:5px;
+	margin:0 auto;
+	font-size: 10px; 	
+   }
+
+.formcredito {
+    font-family:Candara;
+	font-size:1.1875em;
+	margin:-6px 0 20px 41px;
+	color:#7e8181;
+	letter-spacing:normal;
+   }
+
+.formcredito a{
+	color:#4882d5;
+	text-decoration:underline;
+   }
+
+
+.formbotoes{
+   padding-bottom:25px;
+   display:block;
+   }
+
+.formbotoes img{
+   padding-right:1px;
+   }
+     
+
+.formlabels{
+   width:130px;
+   float:left;
+   }
+
+
+.titsingle {
+    display:block;
+	font-family:Verdana;
+	letter-spacing:normal;
+	font-size:1.125em;
+	height:18px;
+	margin:10px 0;
+}
+
+
+
+.images {
+    display:block;
+	font-family:Verdana;
+	letter-spacing:normal;
+	font-size:1.125em;
+	height:18px;
+	margin:10px 0;
+}
+
+
+.imagescreditos {
+    display:block;
+	font-family:Verdana;
+	letter-spacing:normal;
+	font-size:1em;
+	margin:5px 0;
+	color:#7e8181;
+}
+
+
+.imagesbotoes{
+	margin:4px 0 15px 0;
+}
+
+  
+fieldset {
+	margin-bottom: 2em;
+	padding: 1em;
+	border:1px solid #c2c3c5;
+}
+
+
+select {
+	display:inline;
+	font-family:Verdana;
+	letter-spacing:normal;
+	font-size:1.125em;
+	height:17px;
+	margin:10px 0;
+	border:1px solid #c2c3c5;	
+}
+
+#sinopse{
+	display:inline;
+	font-family:Verdana;
+	letter-spacing:normal;
+	font-size:1.125em;
+	height:17px;
+	margin:10px 0;
+	border:1px solid #c2c3c5;
+	width: 400px	
+}
+
+label {
+	display:block;
+	font-family:Verdana;
+	letter-spacing:normal;
+	font-size:1.125em;
+	height:30px;
+	margin:10px 0;
+}
+
+
+legend {
+	font-family:Candara;
+	font-size:1.5625em;
+	letter-spacing:normal;
+}
+
+.status {
+	font-family:Arial;
+	font-size:1.0625em;
+	letter-spacing:normal;
+	padding:5px 0;
+	color:#7a7d7e;
+}
+
+input[type="checkbox"] {
+	display:inline;
+}
+.range {
+	margin-bottom:1em;
+}	
+.card-type input, .card-type label {
+	display:inline-block;
+}
